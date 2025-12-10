@@ -1,9 +1,14 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<template>
+  <div class="page">
+    <h2>Welcome to ModernTech HR</h2>
+    <p>Please use the navibar to help guide you while in the HR system</p>
+  </div>
+</template>
+
+<script>
+export default { name: "Home" }
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped>
+.page { padding: 24px; font-family: Arial, sans-serif; }
+</style>
