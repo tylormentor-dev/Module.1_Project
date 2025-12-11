@@ -22,7 +22,7 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <router-link
-              to="/"
+              to="/dashboard"
               class="nav-link"
               active-class="active"
               exact-active-class="active"

@@ -1,5 +1,12 @@
+<template>
+  <div id="app">
+    <Navbar />
+    <router-view />
+  </div>
+</template>
+
 <script>
-import Navbar from './components/Navbar.vue'
+import Navbar from '../src/components/NAVBAR.vue'
 
 export default {
   name: 'App',
@@ -9,15 +16,7 @@ export default {
 }
 </script>
 
-<template>
-  <div id="app">
-    <Navbar />
-    <router-view/>
-  </div>
-  
-</template>
-
-<style scoped>
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,5 +24,5 @@ export default {
   min-height: 100vh;
   background-color: #f8f9fa;
 }
-
 </style>
+

@@ -76,7 +76,7 @@ export default {
   },
   computed: {
     validEmail() {
-      // simple, safe email check
+      
       return /^\S+@\S+\.\S+$/.test(this.email);
     },
     canSubmit() {
@@ -96,7 +96,7 @@ export default {
 
       this.isSubmitting = true;
 
-      // Fake delay to show button state (feel free to remove)
+      
       await new Promise((r) => setTimeout(r, 500));
 
       const validUser = { email: "admin@user.com", password: "1234" };
