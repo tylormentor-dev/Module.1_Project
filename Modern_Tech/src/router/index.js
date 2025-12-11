@@ -5,8 +5,9 @@ import Payroll from '../views/Payroll.vue'
 import Payslip from '../views/Payslip.vue'
 import Timeoff from '@/views/Timeoff.vue'
 import Attendance from '@/views/Attendance.vue'
-
-
+import Employees from '@/components/Employees.vue'
+import EmployeeDetails from '@/views/EmployeeDetails.vue'
+import HRPayroll from '../views/HRPayroll.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,10 +22,22 @@ const router = createRouter({
       name: 'dashboard',
       component: Dashboard,
     },
+  
     {
-      path: '/payroll',
-      name: 'payroll',
-      component: Payroll,
+      path: '/employees',
+      name: 'employees',
+      component: Employees,
+    },
+
+    {path : '/employee/:id',
+     name : 'employee-details',
+     component : EmployeeDetails,
+    },
+    
+    {
+      path: '/hr-payroll',
+      name: 'hr-payroll',
+      component: HRPayroll,
     },
     { 
       path: "/payslip", 

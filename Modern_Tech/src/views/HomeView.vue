@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <h2>Welcome to ModernTech HR</h2>
-    <p>Please use the navibar to help guide you while in the HR system</p>
+    <p>Please use the Navbar to help guide you while in the HR system</p>
   </div>
 </template>
 

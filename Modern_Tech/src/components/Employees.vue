@@ -14,6 +14,7 @@
       </div>
     </div>
   </div>
+   <router-link to="/employees" class="nav-link"></router-link>
 </template>
 
 <script setup>
