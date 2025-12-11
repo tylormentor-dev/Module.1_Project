@@ -2,14 +2,14 @@
   <div class="hr-container">
     <h1>Payroll Overview</h1>
 
-    <!-- Button to go to Payroll Calculator -->
+    
     <div class="calculator-button">
       <router-link to="/payroll">
         <button class="btn btn-primary">Go to Payroll Calculator</button>
       </router-link>
     </div>
 
-    <!-- Payroll Table -->
+    
     <table class="payroll-table">
       <thead>
         <tr>
@@ -29,7 +29,7 @@
       </tbody>
     </table>
 
-    <!-- Generate Payslip button -->
+    
     <div class="payslip-button">
       <router-link to="/payslip">
         <button class="btn btn-success">Generate Payslip</button>
