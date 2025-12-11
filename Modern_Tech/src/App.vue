@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
   <div id="app">
     <NAVBAR />
@@ -29,3 +30,20 @@ main {
   padding: 20px;
 }
 </style>
+=======
+<script setup>
+
+</script>
+
+<template>
+  <div>
+    <router-view/>
+  </div>
+  
+</template>
+
+<style scoped>
+
+
+</style>
+>>>>>>> 87f8e6c1d6b9a810d969da743b166e5b6072a061
