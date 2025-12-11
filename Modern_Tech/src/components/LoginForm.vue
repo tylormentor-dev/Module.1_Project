@@ -17,7 +17,4 @@
     };
     </script>
 
-    <template>
-      
-      
-    </template>
+    
