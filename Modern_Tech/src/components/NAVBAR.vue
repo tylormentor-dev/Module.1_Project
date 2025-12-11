@@ -16,7 +16,7 @@ export default { name: "Navbar" }
 .navbar {
   background: #d2ecff;
   padding: 15px 25px;
-  display: flex;
+  display: fl;
   justify-content: space-between;
   align-items: center;
   border-bottom: 4px solid #0b4f71;
