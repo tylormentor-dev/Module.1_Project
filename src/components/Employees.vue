@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import employees from '@/data/employees.js' 
+import employees from '../data/employees.js' 
 </script>
 
 <style scoped>

@@ -9,17 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vue/cli-init": "^5.0.9",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.3",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "flatpickr": "^4.6.13",
-    "g": "^2.0.1",
-    "jspdf": "^3.0.4",
-    "vue": "^3.5.25",
-    "vue-router": "^4.6.3"
+    "jspdf": "^3.0.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.0",
-    "vite": "^5.0.0"
+    "vite": "^5.4.21",
+    "@vitejs/plugin-vue": "^5.2.4"
   }
 }

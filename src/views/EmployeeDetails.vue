@@ -43,7 +43,7 @@
 
 <script setup>
 import { ref, computed } from "vue"                
-import employeesData from "@/data/employees.js"
+import employeesData from "../data/employees.js"
 
 const searchQuery = ref("")
 const searched = ref(false)
